@@ -1,0 +1,71 @@
+import { Link } from "@tanstack/react-router";
+import { Mail, Phone, MapPin, Camera, Globe, Send } from "lucide-react";
+import logoAsset from "@/assets/luxe-nomad-logo.webp.asset.json";
+import { navLinks } from "@/lib/site-data";
+
+export function SiteFooter() {
+  return (
+    <footer className="relative border-t border-border mt-24">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-16 sm:py-20">
+        <div className="grid gap-10 md:grid-cols-4">
+          <div className="md:col-span-2">
+            <img
+              src="/logo.png"
+              alt="The Luxe Nomad"
+              className="h-14 sm:h-16 w-auto animate-float-slow"
+              style={{ filter: "drop-shadow(0 4px 20px oklch(0.78 0.11 80 / 0.3))" }}
+            />
+
+            <div className="mt-6 flex gap-3">
+              {[Camera, Globe, Send].map((Icon, i) => (
+                <a
+                  key={i}
+                  href="#"
+                  aria-label="Social link"
+                  className="rounded-full border border-border p-2.5 text-foreground/70 hover:border-primary hover:text-primary transition-all"
+                >
+                  <Icon className="h-4 w-4" />
+                </a>
+              ))}
+            </div>
+          </div>
+          <div>
+            <p className="text-xs uppercase tracking-[0.3em] text-primary mb-5">Explore</p>
+            <ul className="space-y-3 text-sm text-foreground/70">
+              {navLinks.slice(1).map((l) => (
+                <li key={l.to}>
+                  <Link to={l.to} className="hover:text-primary transition-colors">
+                    {l.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <p className="text-xs uppercase tracking-[0.3em] text-primary mb-5">Contact</p>
+            <ul className="space-y-3 text-sm text-foreground/70">
+              <li className="flex items-start gap-2 break-all">
+                <Mail className="h-4 w-4 text-primary shrink-0 mt-0.5" />
+                <span>hello@theluxenomad.com</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <Phone className="h-4 w-4 text-primary shrink-0" /> +971 4 000 0000
+              </li>
+              <li className="flex items-start gap-2">
+                <MapPin className="h-4 w-4 text-primary shrink-0 mt-0.5" /> DIFC, Dubai, UAE
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="mt-14 pt-6 border-t border-border flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-foreground/50">
+          <p>© {new Date().getFullYear()} The Luxe Nomad. All rights reserved.</p>
+          <div className="flex gap-6">
+            <a href="#" className="hover:text-primary">Privacy</a>
+            <a href="#" className="hover:text-primary">Terms</a>
+            <a href="#" className="hover:text-primary">Cookies</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}
