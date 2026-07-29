@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
-import { Mail, Phone, MapPin, Camera, Globe, Send } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import logoAsset from "@/assets/luxe-nomad-logo.webp.asset.json";
 import { navLinks } from "@/lib/site-data";
 
@@ -17,16 +18,27 @@ export function SiteFooter() {
             />
 
             <div className="mt-6 flex gap-3">
-              {[Camera, Globe, Send].map((Icon, i) => (
-                <a
-                  key={i}
-                  href="#"
-                  aria-label="Social link"
-                  className="rounded-full border border-border p-2.5 text-foreground/70 hover:border-primary hover:text-primary transition-all"
-                >
-                  <Icon className="h-4 w-4" />
-                </a>
-              ))}
+              {/* Instagram */}
+              <a
+                href="https://www.instagram.com/traveltechnologist/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="rounded-full border border-border p-2.5 text-foreground/70 hover:border-primary hover:text-primary transition-all"
+              >
+                <FaInstagram className="h-4 w-4" />
+              </a>
+
+              {/* WhatsApp */}
+              <a
+                href="https://wa.me/917383998945"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp"
+                className="rounded-full border border-border p-2.5 text-foreground/70 hover:border-primary hover:text-primary transition-all"
+              >
+                <FaWhatsapp className="h-4 w-4" />
+              </a>
             </div>
           </div>
           <div>
@@ -46,13 +58,13 @@ export function SiteFooter() {
             <ul className="space-y-3 text-sm text-foreground/70">
               <li className="flex items-start gap-2 break-all">
                 <Mail className="h-4 w-4 text-primary shrink-0 mt-0.5" />
-                <span>hello@theluxenomad.com</span>
+                <span>info@luxenomadtravels.com  </span>
               </li>
               <li className="flex items-center gap-2">
-                <Phone className="h-4 w-4 text-primary shrink-0" /> +971 4 000 0000
+                <Phone className="h-4 w-4 text-primary shrink-0" /> +91 7383998945
               </li>
               <li className="flex items-start gap-2">
-                <MapPin className="h-4 w-4 text-primary shrink-0 mt-0.5" /> DIFC, Dubai, UAE
+                <MapPin className="h-4 w-4 text-primary shrink-0 mt-0.5" /> 202 + 201, Insurance Building Plot No. 57-0, AL Rega, Dubai, UAE
               </li>
             </ul>
           </div>

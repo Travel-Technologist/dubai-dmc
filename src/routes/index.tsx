@@ -72,7 +72,7 @@ function Hero() {
 
       <motion.div
         style={{ opacity }}
-        
+
         className="relative z-10 flex min-h-svh flex-col justify-center pt-35 sm:pt-45 lg:pt-45 pb-12"
       >
         <div className="mx-auto w-full max-w-7xl px-4 sm:px-6">
@@ -192,7 +192,14 @@ function FeaturedDestinations() {
 
       </Reveal>
 
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6">
+      <div className="
+grid
+grid-cols-1
+sm:grid-cols-2
+xl:grid-cols-4
+gap-5
+sm:gap-6
+">
 
         {featured.map((d, i) => (
 
@@ -200,7 +207,17 @@ function FeaturedDestinations() {
 
             <Link
               to="/destinations"
-              className="group relative block overflow-hidden rounded-sm aspect-3/4"
+              className="
+group
+relative
+block
+overflow-hidden
+rounded-sm
+
+aspect-4/5
+
+sm:aspect-3/4
+"
             >
 
               <img
@@ -212,11 +229,39 @@ function FeaturedDestinations() {
 
               <div className="absolute inset-0 bg-linear-to-t from-background via-background/20 to-transparent" />
 
-              <div className="absolute inset-x-0 bottom-0 p-3 sm:p-6">
+              <div
+                className="
+absolute
+inset-x-0
+bottom-0
 
-                <div className="flex items-end justify-between gap-2">
+p-5
+sm:p-6
+lg:p-7
+"
+              >
 
-                  <h3 className="font-display text-xl sm:text-2xl md:text-3xl leading-none truncate">
+                <div
+                  className="
+flex
+items-center
+justify-between
+gap-3
+"
+                >
+
+                  <h3
+                    className="
+font-display
+text-2xl
+sm:text-2xl
+lg:text-3xl
+
+leading-tight
+
+wrap-break-word
+"
+                  >
                     {d.name}
                   </h3>
 
@@ -236,16 +281,14 @@ function FeaturedDestinations() {
 
       </div>
 
-      <div className="mt-10 sm:mt-12 text-center">
-
+      <div className="mt-12 flex justify-center">
         <Link
           to="/destinations"
-          className="inline-flex items-center gap-2 text-xs sm:text-sm uppercase tracking-[0.2em] text-primary hover:gap-3 transition-all"
+          className="inline-flex items-center gap-2 rounded-full border border-primary/40 px-8 py-3 text-[11px] uppercase tracking-[0.22em] text-primary transition-all hover:bg-primary hover:text-background"
         >
-          View all destinations
-          <ArrowUpRight className="h-4 w-4" />
+          View All Destinations
+          <ArrowUpRight className="h-3 w-3" />
         </Link>
-
       </div>
 
     </section>
@@ -385,8 +428,6 @@ function CTA() {
               </div>
               <div className="mt-10 sm:mt-12 flex flex-wrap justify-center gap-4 sm:gap-8 text-[10px] sm:text-xs uppercase tracking-[0.3em] text-foreground/60">
                 <span className="flex items-center gap-2"><MapPin className="h-4 w-4 text-primary" /> Dubai</span>
-                <span className="flex items-center gap-2"><MapPin className="h-4 w-4 text-primary" /> Singapore</span>
-                <span className="flex items-center gap-2"><MapPin className="h-4 w-4 text-primary" /> Bali</span>
               </div>
             </div>
           </div>

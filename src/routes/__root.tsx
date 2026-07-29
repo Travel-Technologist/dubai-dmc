@@ -74,15 +74,20 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
   head: () => ({
-meta: [
-  { name: "author", content: "The Luxe Nomad" },
-  { property: "og:title", content: "The Luxe Nomad" },
-  {
-    property: "og:description",
-    content: "Luxury Travel Experiences Across Asia Pacific",
-  },
-  { property: "og:type", content: "website" },
-],
+    meta: [
+      {
+        name: "viewport",
+        content: "width=device-width, initial-scale=1, viewport-fit=cover",
+      },
+
+      { name: "author", content: "The Luxe Nomad" },
+      { property: "og:title", content: "The Luxe Nomad" },
+      {
+        property: "og:description",
+        content: "Luxury Travel Experiences Across Asia Pacific",
+      },
+      { property: "og:type", content: "website" },
+    ],
     links: [
       { rel: "stylesheet", href: appCss },
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },

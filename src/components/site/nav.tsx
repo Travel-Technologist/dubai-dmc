@@ -1,4 +1,5 @@
 import { Link, useLocation } from "@tanstack/react-router";
+import { FaWhatsapp } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { Menu, X, ArrowUpRight, Phone } from "lucide-react";
@@ -29,11 +30,10 @@ export function SiteNav() {
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.7 }}
-className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
-  solid
-    ? "py-2 sm:py-3 bg-black/60 backdrop-blur-2xl border-b border-white/10 shadow-2xl"
-    : "py-4 sm:py-6 bg-transparent"
-}`}
+        className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${solid
+          ? "py-2 sm:py-3 bg-black/60 backdrop-blur-2xl border-b border-white/10 shadow-2xl"
+          : "py-4 sm:py-6 bg-transparent"
+          }`}
       >
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 sm:px-6">
           <Link to="/" className="group flex shrink-0 items-center gap-3">
@@ -60,11 +60,23 @@ className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
             ))}
           </nav>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-3 xl:gap-5">
+
+            <a
+              href="https://wa.me/917383998945"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden xl:inline-flex items-center gap-2 rounded-full border border-primary/40 px-6 py-2 text-[11px] uppercase tracking-[0.22em] text-primary hover:bg-primary hover:text-background transition-all"
+            >
+              <FaWhatsapp className="h-5 w-5 shrink-0" />
+              <span className="whitespace-nowrap font-medium">
+                +91 7383998945
+              </span>
+            </a>
 
             <Link
               to="/contact"
-              className="hidden md:inline-flex items-center gap-2 rounded-full border border-primary/40 px-4 py-2 text-[11px] uppercase tracking-[0.22em] text-primary hover:bg-primary hover:text-primary-foreground transition-all"
+              className="hidden xl:inline-flex items-center gap-2 rounded-full border border-primary/40 px-6 py-2 text-[11px] uppercase tracking-[0.22em] text-primary hover:bg-primary hover:text-background transition-all"
             >
               Plan Journey <ArrowUpRight className="h-3 w-3" />
             </Link>
@@ -91,9 +103,9 @@ className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
           className="absolute inset-0 bg-background/95 backdrop-blur-2xl"
           onClick={() => setOpen(false)}
         />
-        <aside className="absolute right-0 top-0 h-full w-[88%] max-w-sm bg-background/95 backdrop-blur-2xl border-l border-border p-6 sm:p-8 flex flex-col overflow-y-auto">
+        <aside className="absolute right-0 top-0 h-full w-[92vw] max-w-95 bg-background/95 backdrop-blur-2xl border-l border-border px-8 py-6 flex flex-col overflow-y-auto">
           <div className="flex items-center justify-between mb-10">
-            <img src="/logo.png" alt="The Luxe Nomad" className="h-9 w-auto" />
+            <img src="/logo.png" alt="The Luxe Nomad" className="h-12 w-auto" />
             <button
               onClick={() => setOpen(false)}
               aria-label="Close menu"
@@ -112,7 +124,7 @@ className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
               >
                 <Link
                   to={l.to}
-                  className="block font-display text-3xl sm:text-4xl leading-none hover:text-primary transition-colors"
+                  className="block font-display text-2xl sm:text-3xl leading-none hover:text-primary transition-colors"
                   activeProps={{ className: "text-primary" }}
                   activeOptions={{ exact: l.to === "/" }}
                 >
@@ -123,11 +135,18 @@ className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
           </nav>
           <div className="mt-auto pt-8 border-t border-border">
             <p className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">Reach us</p>
-            <a href="tel:+97140000000" className="mt-3 flex items-center gap-2 text-primary text-sm">
-              <Phone className="h-4 w-4" /> +971 4 000 0000
+
+            <a href="https://wa.me/917383998945"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 flex items-center gap-2 text-primary text-sm"
+            >
+              <FaWhatsapp className="h-5 w-5" />
+              <span className="font-medium">+91 7383998945</span>
             </a>
+
             <p className="mt-4 text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
-              Dubai · Singapore · Bali
+              Dubai
             </p>
           </div>
         </aside>

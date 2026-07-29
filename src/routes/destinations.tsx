@@ -4,12 +4,13 @@ import { SiteNav } from "@/components/site/nav";
 import { SiteFooter } from "@/components/site/footer";
 import { PageHero, Reveal, SectionHeading } from "@/components/site/primitives";
 import { destinationGroups, img } from "@/lib/site-data";
+import { Link } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/destinations")({
   head: () => ({
     meta: [
       { title: "Destinations — The Luxe Nomad" },
-      { name: "description", content: "Forty destinations across the UAE, Asia, Europe, the Americas, Africa and Oceania — curated by specialists on the ground." },
+      { name: "description", content: "Forty destinations across the UAE, Asia, Europe, the USA, Africa and Oceania — curated by specialists on the ground." },
       { property: "og:title", content: "Destinations — The Luxe Nomad" },
       { property: "og:description", content: "Forty destinations across six continents, curated by local specialists." },
     ],
@@ -50,7 +51,7 @@ function Page() {
       <PageHero
         eyebrow="Destinations"
         title={<>Six continents, <em className="italic text-gold-gradient">one unwavering standard.</em></>}
-        subtitle="From the UAE to Southeast Asia, Europe to the Americas — every destination we curate is known personally by a specialist who lives it daily."
+        subtitle="From the UAE to Southeast Asia, Europe to the USA — every destination we curate is known personally by a specialist who lives it daily."
         imageId="/images/home/destination.webp"
       />
 
@@ -220,11 +221,12 @@ function Page() {
 
                       <div className="flex gap-3">
 
-                        <button className="flex-1 rounded-full bg-primary py-3 font-medium text-background transition hover:scale-105">
-
+                        <Link
+                          to="/contact"
+                          className="inline-flex items-center justify-center rounded-full bg-primary px-8 py-4 font-semibold text-background transition-all hover:opacity-90"
+                        >
                           Book Now
-
-                        </button>
+                        </Link>
 
                         <button
                           onClick={() => setSelectedPlace(place)}
@@ -339,11 +341,12 @@ function Page() {
 
               <div className="mt-10 flex gap-4">
 
-                <button className="rounded-full bg-primary px-8 py-4 font-semibold text-background">
-
+                <Link
+                  to="/contact"
+                  className="inline-flex items-center justify-center rounded-full bg-primary px-8 py-4 font-semibold text-background transition-all hover:opacity-90"
+                >
                   Book Now
-
-                </button>
+                </Link>
 
                 <button
                   onClick={() => setSelectedPlace(null)}

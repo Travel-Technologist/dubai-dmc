@@ -15,7 +15,7 @@ export const destinationGroups = [
       {
         id: "dubai",
         name: "Dubai",
-        image: "/images/destinations/dubai.webp",
+        image: "/images/gallery/gallery-01.webp",
         description:
           "Experience futuristic skylines, luxury shopping, desert adventures and iconic landmarks in Dubai.",
 
@@ -103,22 +103,22 @@ export const destinationGroups = [
           {
             name: "Bangkok",
             nights: "3 Days / 4 Nights",
-            image: "/images/destinations/thailand.webp",
+            image: "/images/destinations/bangkok.webp",
           },
           {
             name: "Phuket",
             nights: "4 Days / 5 Nights",
-            image: "/images/destinations/island.webp",
+            image: "/images/destinations/phuket.webp",
           },
           {
             name: "Krabi",
             nights: "3 Days / 4 Nights",
-            image: "/images/gallery/gallery-04.webp",
+            image: "/images/destinations/krabi.webp",
           },
           {
             name: "Phi Phi Islands",
             nights: "Full Day Tour",
-            image: "/images/gallery/gallery-06.webp",
+            image: "/images/destinations/phiphi.webp",
           },
         ],
       },
@@ -134,22 +134,22 @@ export const destinationGroups = [
           {
             name: "Marina Bay Sands",
             nights: "3 Days / 4 Nights",
-            image: "/images/destinations/singapore.webp",
+            image: "/images/destinations/Marina-Bay-Sands.webp",
           },
           {
             name: "Gardens by the Bay",
             nights: "Half Day",
-            image: "/images/gallery/gallery-07.webp",
+            image: "/images/destinations/Gardens-of-Bay.webp",
           },
           {
             name: "Sentosa Island",
             nights: "2 Days",
-            image: "/images/destinations/family-holidays.webp",
+            image: "/images/destinations/Sentosa-Island.webp",
           },
           {
             name: "Universal Studios",
             nights: "1 Day",
-            image: "/images/destinations/adventure.webp",
+            image: "/images/destinations/Universal-Studios.webp",
           },
         ],
       },
@@ -165,22 +165,22 @@ export const destinationGroups = [
           {
             name: "Ubud",
             nights: "3 Days",
-            image: "/images/destinations/bali.webp",
+            image: "/images/destinations/Ubud.webp",
           },
           {
             name: "Seminyak",
             nights: "3 Days",
-            image: "/images/gallery/gallery-03.webp",
+            image: "/images/destinations/Seminyak.webp",
           },
           {
             name: "Nusa Penida",
             nights: "Full Day Tour",
-            image: "/images/gallery/gallery-09.webp",
+            image: "/images/destinations/Nusa-Penida.webp",
           },
           {
             name: "Uluwatu Temple",
             nights: "Half Day",
-            image: "/images/gallery/gallery-11.webp",
+            image: "/images/destinations/Uluwatu-Temple.webp",
           },
         ],
       },
@@ -196,22 +196,22 @@ export const destinationGroups = [
           {
             name: "Hanoi",
             nights: "3 Days",
-            image: "/images/destinations/vietnam.webp",
+            image: "/images/destinations/Hanoi.webp",
           },
           {
             name: "Ha Long Bay",
             nights: "2 Days",
-            image: "/images/gallery/gallery-02.webp",
+            image: "/images/destinations/Ha-Long-Bay.webp",
           },
           {
             name: "Da Nang",
             nights: "3 Days",
-            image: "/images/gallery/gallery-05.webp",
+            image: "/images/destinations/Da-Nang.webp",
           },
           {
             name: "Ho Chi Minh City",
             nights: "3 Days",
-            image: "/images/gallery/gallery-10.webp",
+            image: "/images/destinations/Ho-Chi-City.webp",
           },
         ],
       },
@@ -227,22 +227,22 @@ export const destinationGroups = [
           {
             name: "Kuala Lumpur",
             nights: "3 Days",
-            image: "/images/destinations/malaysia.webp",
+            image: "/images/destinations/Kuala-Lumpur.webp",
           },
           {
             name: "Langkawi",
             nights: "4 Days",
-            image: "/images/destinations/island.webp",
+            image: "/images/destinations/Langkawi.webp",
           },
           {
             name: "Genting Highlands",
             nights: "2 Days",
-            image: "/images/gallery/gallery-12.webp",
+            image: "/images/destinations/Genting-Highlands.webp",
           },
           {
             name: "Penang",
             nights: "3 Days",
-            image: "/images/gallery/gallery-08.webp",
+            image: "/images/destinations/Penang.webp",
           },
         ],
       },
@@ -258,7 +258,7 @@ export const destinationGroups = [
           {
             name: "Boracay",
             nights: "4 Days",
-            image: "/images/destinations/philippines.webp",
+            image: "/images/destinations/Boracay.webp",
           },
           {
             name: "Palawan",
@@ -268,12 +268,12 @@ export const destinationGroups = [
           {
             name: "Cebu",
             nights: "3 Days",
-            image: "/images/gallery/gallery-01.webp",
+            image: "/images/destinations/Cebu.webp",
           },
           {
             name: "El Nido",
             nights: "4 Days",
-            image: "/images/gallery/gallery-05.webp",
+            image: "/images/destinations/El-Nido.webp",
           },
         ],
       },
@@ -294,22 +294,22 @@ export const destinationGroups = [
           {
             name: "Tokyo",
             nights: "4 Days / 5 Nights",
-            image: "/images/destinations/japan.webp",
+            image: "/images/destinations/Tokyo.webp",
           },
           {
             name: "Kyoto",
             nights: "3 Days / 4 Nights",
-            image: "/images/gallery/gallery-09.webp",
+            image: "/images/destinations/Kyoto.webp",
           },
           {
             name: "Osaka",
             nights: "3 Days",
-            image: "/images/gallery/gallery-03.webp",
+            image: "/images/destinations/Osaka.webp",
           },
           {
             name: "Mount Fuji",
             nights: "Full Day Tour",
-            image: "/images/gallery/gallery-07.webp",
+            image: "/images/destinations/Mount-Fuji.webp",
           },
         ],
       },
@@ -325,22 +325,22 @@ export const destinationGroups = [
           {
             name: "Kashmir",
             nights: "5 Days",
-            image: "/images/destinations/india.webp",
+            image: "/images/destinations/Kashmir.webp",
           },
           {
             name: "Goa",
             nights: "4 Days",
-            image: "/images/destinations/island.webp",
+            image: "/images/destinations/Goa.webp",
           },
           {
             name: "Kerala",
             nights: "5 Days",
-            image: "/images/gallery/gallery-05.webp",
+            image: "/images/destinations/Kerala.webp",
           },
           {
             name: "Rajasthan",
             nights: "5 Days",
-            image: "/images/gallery/gallery-12.webp",
+            image: "/images/destinations/Rajasthan.webp",
           },
         ],
       },
@@ -356,22 +356,22 @@ export const destinationGroups = [
           {
             name: "Male",
             nights: "4 Days",
-            image: "/images/destinations/maldives.webp",
+            image: "/images/destinations/Male.webp",
           },
           {
             name: "Private Island Resort",
             nights: "5 Days",
-            image: "/images/destinations/luxury-escape.webp",
+            image: "/images/destinations/Private-Island.webp",
           },
           {
             name: "Snorkeling",
             nights: "Half Day",
-            image: "/images/gallery/gallery-01.webp",
+            image: "/images/destinations/Snorkeling.webp",
           },
           {
             name: "Sunset Cruise",
             nights: "Evening Experience",
-            image: "/images/gallery/gallery-11.webp",
+            image: "/images/destinations/Sunset-Cruise.webp",
           },
         ],
       },
@@ -387,22 +387,22 @@ export const destinationGroups = [
           {
             name: "Colombo",
             nights: "2 Days",
-            image: "/images/destinations/sri-lanka.webp",
+            image: "/images/destinations/Colombo.webp",
           },
           {
             name: "Kandy",
             nights: "2 Days",
-            image: "/images/gallery/gallery-06.webp",
+            image: "/images/destinations/Kandy.webp",
           },
           {
             name: "Ella",
             nights: "3 Days",
-            image: "/images/gallery/gallery-04.webp",
+            image: "/images/destinations/Ella.webp",
           },
           {
             name: "Bentota",
             nights: "3 Days",
-            image: "/images/destinations/island.webp",
+            image: "/images/destinations/Bentota.webp",
           },
         ],
       },
@@ -418,22 +418,22 @@ export const destinationGroups = [
           {
             name: "Kathmandu",
             nights: "3 Days",
-            image: "/images/destinations/nepal.webp",
+            image: "/images/destinations/Kathmandu.webp",
           },
           {
             name: "Pokhara",
             nights: "3 Days",
-            image: "/images/gallery/gallery-08.webp",
+            image: "/images/destinations/Pokhara.webp",
           },
           {
             name: "Everest Base Camp",
             nights: "7 Days",
-            image: "/images/destinations/adventure.webp",
+            image: "/images/destinations/Everest-Base-Camp.webp",
           },
           {
             name: "Nagarkot",
             nights: "2 Days",
-            image: "/images/gallery/gallery-10.webp",
+            image: "/images/destinations/Nagarkot.webp",
           },
         ],
       },
@@ -449,22 +449,22 @@ export const destinationGroups = [
           {
             name: "Paro",
             nights: "2 Days",
-            image: "/images/destinations/bhutan.webp",
+            image: "/images/destinations/Paro.webp",
           },
           {
             name: "Tiger's Nest",
             nights: "Full Day Trek",
-            image: "/images/gallery/gallery-07.webp",
+            image: "/images/destinations/Tiger-Nest.webp",
           },
           {
             name: "Thimphu",
             nights: "2 Days",
-            image: "/images/gallery/gallery-09.webp",
+            image: "/images/destinations/Thimphu.webp",
           },
           {
             name: "Punakha",
             nights: "2 Days",
-            image: "/images/gallery/gallery-05.webp",
+            image: "/images/destinations/Punakha.webp",
           },
         ],
       },
@@ -485,22 +485,22 @@ export const destinationGroups = [
           {
             name: "Paris",
             nights: "4 Days",
-            image: "/images/destinations/france.webp",
+            image: "/images/destinations/Paris.webp",
           },
           {
             name: "French Riviera",
             nights: "4 Days",
-            image: "/images/gallery/gallery-02.webp",
+            image: "/images/destinations/French-Riviera.webp",
           },
           {
             name: "Nice",
             nights: "3 Days",
-            image: "/images/gallery/gallery-03.webp",
+            image: "/images/destinations/Nice.webp",
           },
           {
             name: "Lyon",
             nights: "3 Days",
-            image: "/images/gallery/gallery-11.webp",
+            image: "/images/destinations/Lyon.webp",
           },
         ],
       },
@@ -516,22 +516,22 @@ export const destinationGroups = [
           {
             name: "Rome",
             nights: "3 Days",
-            image: "/images/destinations/italy.webp",
+            image: "/images/destinations/Rome.webp",
           },
           {
             name: "Venice",
             nights: "2 Days",
-            image: "/images/gallery/gallery-08.webp",
+            image: "/images/destinations/Venice.webp",
           },
           {
             name: "Florence",
             nights: "2 Days",
-            image: "/images/gallery/gallery-12.webp",
+            image: "/images/destinations/Florence.webp",
           },
           {
             name: "Amalfi Coast",
             nights: "4 Days",
-            image: "/images/destinations/luxury-escape.webp",
+            image: "/images/destinations/Amalfi-Coast.webp",
           },
         ],
       },
@@ -547,22 +547,22 @@ export const destinationGroups = [
           {
             name: "Zurich",
             nights: "3 Days",
-            image: "/images/destinations/switzerland.webp",
+            image: "/images/destinations/Zurich.webp",
           },
           {
             name: "Interlaken",
             nights: "3 Days",
-            image: "/images/gallery/gallery-01.webp",
+            image: "/images/destinations/Interlaken.webp",
           },
           {
             name: "Lucerne",
             nights: "2 Days",
-            image: "/images/gallery/gallery-06.webp",
+            image: "/images/destinations/Lucerne.webp",
           },
           {
             name: "Jungfraujoch",
             nights: "Day Excursion",
-            image: "/images/destinations/adventure.webp",
+            image: "/images/destinations/Jungfraujoch.webp",
           },
         ],
       },
@@ -583,17 +583,17 @@ export const destinationGroups = [
           {
             name: "Mykonos",
             nights: "3 Days",
-            image: "/images/gallery/gallery-02.webp",
+            image: "/images/destinations/Mykonos.webp",
           },
           {
             name: "Athens",
             nights: "3 Days",
-            image: "/images/gallery/gallery-09.webp",
+            image: "/images/destinations/Athens.webp",
           },
           {
             name: "Crete",
             nights: "4 Days",
-            image: "/images/gallery/gallery-12.webp",
+            image: "/images/destinations/Crete.webp",
           },
         ],
       },
@@ -609,22 +609,22 @@ export const destinationGroups = [
           {
             name: "Barcelona",
             nights: "4 Days",
-            image: "/images/destinations/spain.webp",
+            image: "/images/destinations/Barcelona.webp",
           },
           {
             name: "Madrid",
             nights: "3 Days",
-            image: "/images/gallery/gallery-03.webp",
+            image: "/images/destinations/Madrid.webp",
           },
           {
             name: "Seville",
             nights: "3 Days",
-            image: "/images/gallery/gallery-07.webp",
+            image: "/images/destinations/Seville.webp",
           },
           {
             name: "Ibiza",
             nights: "4 Days",
-            image: "/images/destinations/island.webp",
+            image: "/images/destinations/Ibiza.webp",
           },
         ],
       },
@@ -640,22 +640,22 @@ export const destinationGroups = [
           {
             name: "Oslo",
             nights: "3 Days",
-            image: "/images/destinations/norway.webp",
+            image: "/images/destinations/Oslo.webp",
           },
           {
             name: "Bergen",
             nights: "3 Days",
-            image: "/images/gallery/gallery-05.webp",
+            image: "/images/destinations/Bergen.webp",
           },
           {
             name: "Geirangerfjord",
             nights: "2 Days",
-            image: "/images/gallery/gallery-10.webp",
+            image: "/images/destinations/Geirangerfjord.webp",
           },
           {
             name: "Tromsø",
             nights: "4 Days",
-            image: "/images/destinations/adventure.webp",
+            image: "/images/destinations/Troms.webp",
           },
         ],
       },
@@ -663,7 +663,7 @@ export const destinationGroups = [
   },
 
   {
-    region: "The Americas",
+    region: "USA",
     countries: [
       {
         id: "new-york",
@@ -676,22 +676,22 @@ export const destinationGroups = [
           {
             name: "Times Square",
             nights: "4 Days / 5 Nights",
-            image: "/images/destinations/new-york.webp",
+            image: "/images/destinations/Times-Square.webp",
           },
           {
             name: "Central Park",
             nights: "Half Day",
-            image: "/images/gallery/gallery-03.webp",
+            image: "/images/destinations/Central-Park.webp",
           },
           {
             name: "Statue of Liberty",
             nights: "Half Day",
-            image: "/images/gallery/gallery-07.webp",
+            image: "/images/destinations/Statue-of-Liberty.webp",
           },
           {
             name: "Brooklyn Bridge",
             nights: "Half Day",
-            image: "/images/gallery/gallery-10.webp",
+            image: "/images/destinations/Brooklyn-Bridge.webp",
           },
         ],
       },
@@ -707,22 +707,22 @@ export const destinationGroups = [
           {
             name: "Los Angeles",
             nights: "4 Days",
-            image: "/images/destinations/california.webp",
+            image: "/images/destinations/Los-Angeles.webp",
           },
           {
             name: "San Francisco",
             nights: "3 Days",
-            image: "/images/gallery/gallery-05.webp",
+            image: "/images/destinations/San-Francisco.webp",
           },
           {
             name: "Hollywood",
             nights: "2 Days",
-            image: "/images/gallery/gallery-08.webp",
+            image: "/images/destinations/Hollywood.webp",
           },
           {
             name: "Yosemite",
             nights: "3 Days",
-            image: "/images/destinations/adventure.webp",
+            image: "/images/destinations/Yosemite.webp",
           },
         ],
       },
@@ -743,17 +743,17 @@ export const destinationGroups = [
           {
             name: "Bellagio",
             nights: "2 Days",
-            image: "/images/gallery/gallery-02.webp",
+            image: "/images/destinations/Bellagio.webp",
           },
           {
             name: "Grand Canyon",
             nights: "Day Trip",
-            image: "/images/gallery/gallery-11.webp",
+            image: "/images/destinations/Grand-Canyon.webp",
           },
           {
             name: "Red Rock Canyon",
             nights: "Day Trip",
-            image: "/images/destinations/adventure.webp",
+            image: "/images/destinations/Red-Rock-Canyon.webp",
           },
         ],
       },
@@ -769,7 +769,7 @@ export const destinationGroups = [
           {
             name: "Honolulu",
             nights: "4 Days",
-            image: "/images/destinations/hawaii.webp",
+            image: "/images/destinations/Honolulu.webp",
           },
           {
             name: "Waikiki Beach",
@@ -779,12 +779,12 @@ export const destinationGroups = [
           {
             name: "Maui",
             nights: "4 Days",
-            image: "/images/gallery/gallery-04.webp",
+            image: "/images/destinations/Maui.webp",
           },
           {
             name: "Big Island",
             nights: "3 Days",
-            image: "/images/gallery/gallery-09.webp",
+            image: "/images/destinations/Big-Island.webp",
           },
         ],
       },
@@ -805,7 +805,7 @@ export const destinationGroups = [
           {
             name: "Cape Town",
             nights: "4 Days",
-            image: "/images/destinations/south-africa.webp",
+            image: "/images/destinations/Cape-Town.webp",
           },
           {
             name: "Kruger National Park",
@@ -815,12 +815,12 @@ export const destinationGroups = [
           {
             name: "Table Mountain",
             nights: "Half Day",
-            image: "/images/gallery/gallery-12.webp",
+            image: "/images/destinations/Table-Mountain.webp",
           },
           {
             name: "Garden Route",
             nights: "4 Days",
-            image: "/images/gallery/gallery-01.webp",
+            image: "/images/destinations/Garden-Route.webp",
           },
         ],
       },
@@ -841,17 +841,17 @@ export const destinationGroups = [
           {
             name: "Nairobi",
             nights: "2 Days",
-            image: "/images/gallery/gallery-06.webp",
+            image: "/images/destinations/Nairobi.webp",
           },
           {
             name: "Lake Nakuru",
             nights: "2 Days",
-            image: "/images/gallery/gallery-08.webp",
+            image: "/images/destinations/Lake-Nakuru.webp",
           },
           {
             name: "Amboseli",
             nights: "3 Days",
-            image: "/images/destinations/safari.webp",
+            image: "/images/destinations/Amboseli.webp",
           },
         ],
       },
@@ -867,22 +867,22 @@ export const destinationGroups = [
           {
             name: "Marrakech",
             nights: "3 Days",
-            image: "/images/destinations/morocco.webp",
+            image: "/images/destinations/Marrakech.webp",
           },
           {
             name: "Sahara Desert",
             nights: "2 Days",
-            image: "/images/destinations/desert.webp",
+            image: "/images/destinations/Sahara-Desert.webp",
           },
           {
             name: "Chefchaouen",
             nights: "2 Days",
-            image: "/images/gallery/gallery-10.webp",
+            image: "/images/destinations/morocco.webp",
           },
           {
             name: "Casablanca",
             nights: "2 Days",
-            image: "/images/gallery/gallery-07.webp",
+            image: "/images/destinations/Casablanca.webp",
           },
         ],
       },
@@ -898,17 +898,17 @@ export const destinationGroups = [
           {
             name: "Cairo",
             nights: "3 Days",
-            image: "/images/destinations/egypt.webp",
+            image: "/images/destinations/Cairo.webp",
           },
           {
             name: "Pyramids of Giza",
             nights: "Full Day",
-            image: "/images/gallery/gallery-11.webp",
+            image: "/images/destinations/Pyramids-of-Giza.webp",
           },
           {
             name: "Luxor",
             nights: "2 Days",
-            image: "/images/gallery/gallery-04.webp",
+            image: "/images/destinations/Luxor.webp",
           },
           {
             name: "Nile Cruise",
@@ -934,17 +934,17 @@ export const destinationGroups = [
           {
             name: "Bondi Beach",
             nights: "2 Days",
-            image: "/images/gallery/gallery-03.webp",
+            image: "/images/destinations/Bondi-Beach.webp",
           },
           {
             name: "Blue Mountains",
             nights: "Day Trip",
-            image: "/images/gallery/gallery-09.webp",
+            image: "/images/destinations/Blue-Mountains.webp",
           },
           {
             name: "Harbour Cruise",
             nights: "Evening",
-            image: "/images/destinations/cruise.webp",
+            image: "/images/destinations/Harbour-Cruise.webp",
           },
         ],
       },
@@ -960,22 +960,22 @@ export const destinationGroups = [
           {
             name: "Great Ocean Road",
             nights: "2 Days",
-            image: "/images/destinations/melbourne.webp",
+            image: "/images/destinations/Great-Ocean-Road.webp",
           },
           {
             name: "Phillip Island",
             nights: "Day Tour",
-            image: "/images/gallery/gallery-05.webp",
+            image: "/images/destinations/Phillip-Island.webp",
           },
           {
             name: "Yarra Valley",
             nights: "2 Days",
-            image: "/images/gallery/gallery-12.webp",
+            image: "/images/destinations/Yarra-Valley.webp",
           },
           {
             name: "City Centre",
             nights: "2 Days",
-            image: "/images/gallery/gallery-08.webp",
+            image: "/images/destinations/City-Centre.webp",
           },
         ],
       },
@@ -983,68 +983,21 @@ export const destinationGroups = [
   },
 ];
 
-export const destinations = [
-  {
-    name: "Family Holidays",
-    img: "/images/destinations/family-holidays.webp",
-  },
-  {
-    name: "Honeymoon Escapes",
-    img: "/images/destinations/honeymoon.webp",
-  },
-  {
-    name: "Luxury Escapes",
-    img: "/images/destinations/luxury-escape.webp",
-  },
-  {
-    name: "Adventure Journeys",
-    img: "/images/destinations/adventure.webp",
-  },
-  {
-    name: "Cruises",
-    img: "/images/destinations/cruise.webp",
-  },
-  {
-    name: "Corporate Retreats",
-    img: "/images/destinations/corporate-retreat.webp",
-  },
-  {
-    name: "Group Tours",
-    img: "/images/destinations/group-tour.webp",
-  },
-  {
-    name: "Solo Journeys",
-    img: "/images/destinations/solo-travel.webp",
-  },
-  {
-    name: "Wellness Retreats",
-    img: "/images/destinations/wellness.webp",
-  },
-  {
-    name: "Safari",
-    img: "/images/destinations/safari.webp",
-  },
-  {
-    name: "Island Escapes",
-    img: "/images/destinations/island.webp",
-  },
-  {
-    name: "Desert Experiences",
-    img: "/images/destinations/desert.webp",
-  },
-];
-
 export const galleryImages = [
   "/images/gallery/gallery-01.webp",
+  "/images/destinations/Tokyo.webp",
   "/images/gallery/gallery-02.webp",
-  "/images/gallery/gallery-03.webp",
-  "/images/gallery/gallery-04.webp",
-  "/images/gallery/gallery-05.webp",
-  "/images/gallery/gallery-06.webp",
+  "/images/destinations/Kyoto.webp",
+  "/images/destinations/Snorkeling.webp",
+  "/images/destinations/Kashmir.webp",
   "/images/gallery/gallery-07.webp",
   "/images/gallery/gallery-08.webp",
-  "/images/gallery/gallery-09.webp",
-  "/images/gallery/gallery-10.webp",
+  "/images/destinations/Rajasthan.webp",
+  "/images/destinations/Times-Square.webp",
   "/images/gallery/gallery-11.webp",
   "/images/gallery/gallery-12.webp",
+  "/images/destinations/phuket.webp",
+  "/images/destinations/Everest-Base-Camp.webp",
+  "/images/destinations/Punakha.webp",
+  "/images/destinations/Zurich.webp",
 ];
