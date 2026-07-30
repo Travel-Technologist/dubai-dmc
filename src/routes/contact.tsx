@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { API_URL } from "@/config/api";
 import { Mail, Phone, MapPin, Clock } from "lucide-react";
 import { useState } from "react";
 import { SiteNav } from "@/components/site/nav";
@@ -50,7 +51,7 @@ function Page() {
     try {
       setLoading(true);
 
-      const response = await fetch("/api/contact", {
+      const response = await fetch(`${API_URL}/api/contact`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
