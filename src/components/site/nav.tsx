@@ -31,14 +31,14 @@ export function SiteNav() {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.7 }}
         className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${solid
-          ? "py-2 sm:py-3 bg-black/60 backdrop-blur-2xl border-b border-white/10 shadow-2xl"
-          : "py-4 sm:py-6 bg-transparent"
+            ? "py-2 sm:py-3 bg-[#1b1411] backdrop-blur-2xl border-b border-white/10 shadow-2xl"
+            : "py-2 sm:py-3 bg-[#1b1411]"
           }`}
       >
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 sm:px-6">
           <Link to="/" className="group flex shrink-0 items-center gap-3">
             <img
-              src="/logo.png"
+              src="/logo.webp"
               alt="The Luxe Nomad"
               className="h-16 sm:h-20 lg:h-24 xl:h-28 w-auto object-contain transition-transform duration-500 group-hover:scale-105"
               style={{ filter: "drop-shadow(0 2px 12px oklch(0.78 0.11 80 / 0.35))" }}
@@ -105,7 +105,7 @@ export function SiteNav() {
         />
         <aside className="absolute right-0 top-0 h-full w-[92vw] max-w-95 bg-background/95 backdrop-blur-2xl border-l border-border px-8 py-6 flex flex-col overflow-y-auto">
           <div className="flex items-center justify-between mb-10">
-            <img src="/logo.png" alt="The Luxe Nomad" className="h-12 w-auto" />
+            <img src="/logo.webp" alt="The Luxe Nomad" className="h-12 w-auto" />
             <button
               onClick={() => setOpen(false)}
               aria-label="Close menu"

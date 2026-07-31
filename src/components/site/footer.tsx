@@ -11,7 +11,7 @@ export function SiteFooter() {
         <div className="grid gap-10 md:grid-cols-4">
           <div className="md:col-span-2">
             <img
-              src="/logo.png"
+              src="/logo.webp"
               alt="The Luxe Nomad"
               className="h-14 sm:h-16 w-auto animate-float-slow"
               style={{ filter: "drop-shadow(0 4px 20px oklch(0.78 0.11 80 / 0.3))" }}
