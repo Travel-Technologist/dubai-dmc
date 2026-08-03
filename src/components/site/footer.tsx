@@ -20,7 +20,7 @@ export function SiteFooter() {
             <div className="mt-6 flex gap-3">
               {/* Instagram */}
               <a
-                href="https://www.instagram.com/traveltechnologist/"
+                href="https://www.instagram.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
@@ -71,11 +71,6 @@ export function SiteFooter() {
         </div>
         <div className="mt-14 pt-6 border-t border-border flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-foreground/50">
           <p>© {new Date().getFullYear()} The Luxe Nomad. All rights reserved.</p>
-          <div className="flex gap-6">
-            <a href="#" className="hover:text-primary">Privacy</a>
-            <a href="#" className="hover:text-primary">Terms</a>
-            <a href="#" className="hover:text-primary">Cookies</a>
-          </div>
         </div>
       </div>
     </footer>
