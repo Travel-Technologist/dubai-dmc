@@ -115,24 +115,24 @@ function Page() {
                   <div className="space-y-4 text-base">
 
                     <a
-                      href="mailto:info@luxenomadtravels.com  "
+                      href="mailto:Luxenomadtravels@gmail.com   "
                       className="flex items-start gap-4 text-foreground/80 hover:text-primary transition-colors"
                     >
                       <Mail className="h-5 w-5 text-primary shrink-0 mt-1" />
 
                       <span className="wrap-break-word">
-                        info@luxenomadtravels.com
+                        Luxenomadtravels@gmail.com 
                       </span>
 
                     </a>
 
                     <a
-                      href="tel:+91 7383998945"
+                      href="tel:+971 505403871"
                       className="flex items-center gap-4 text-foreground/80 hover:text-primary transition-colors"
                     >
                       <Phone className="h-5 w-5 text-primary shrink-0" />
 
-                      <span>+91 7383998945</span>
+                      <span>+971 505403871</span>
 
                     </a>
 

@@ -63,14 +63,14 @@ export function SiteNav() {
           <div className="flex items-center gap-3 xl:gap-5">
 
             <a
-              href="https://wa.me/917383998945"
+              href="https://wa.me/971505403871"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden xl:inline-flex items-center gap-2 rounded-full border border-primary/40 px-6 py-2 text-[11px] uppercase tracking-[0.22em] text-primary hover:bg-primary hover:text-background transition-all"
             >
               <FaWhatsapp className="h-5 w-5 shrink-0" />
               <span className="whitespace-nowrap font-medium">
-                +91 7383998945
+                +971 505403871
               </span>
             </a>
 
@@ -136,13 +136,13 @@ export function SiteNav() {
           <div className="mt-auto pt-8 border-t border-border">
             <p className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">Reach us</p>
 
-            <a href="https://wa.me/917383998945"
+            <a href="https://wa.me/971505403871"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-3 flex items-center gap-2 text-primary text-sm"
             >
               <FaWhatsapp className="h-5 w-5" />
-              <span className="font-medium">+91 7383998945</span>
+              <span className="font-medium">+971 505403871</span>
             </a>
 
             <p className="mt-4 text-[10px] uppercase tracking-[0.3em] text-muted-foreground">

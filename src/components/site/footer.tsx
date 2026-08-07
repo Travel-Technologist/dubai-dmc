@@ -31,7 +31,7 @@ export function SiteFooter() {
 
               {/* WhatsApp */}
               <a
-                href="https://wa.me/917383998945"
+                href="https://wa.me/971505403871"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="WhatsApp"
@@ -58,10 +58,10 @@ export function SiteFooter() {
             <ul className="space-y-3 text-sm text-foreground/70">
               <li className="flex items-start gap-2 break-all">
                 <Mail className="h-4 w-4 text-primary shrink-0 mt-0.5" />
-                <span>info@luxenomadtravels.com  </span>
+                <span>Luxenomadtravels@gmail.com </span>
               </li>
               <li className="flex items-center gap-2">
-                <Phone className="h-4 w-4 text-primary shrink-0" /> +91 7383998945
+                <Phone className="h-4 w-4 text-primary shrink-0" /> +971 505403871
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 text-primary shrink-0 mt-0.5" /> 202 + 201, Insurance Building Plot No. 57-0, AL Rega, Dubai, UAE
